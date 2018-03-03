@@ -12,10 +12,9 @@ export const Container = styled.View`
 `;
 
 export const ActionIcon = styled(Icon)`
-   color: white;
+   color: ${props => (props.active ? 'white' : 'grey')};
    font-size: 25px;
    padding: 10px 20px;
-   /* margin-left: 20px; */
    background-color: rgba(0,0,0,0.4);
    border-radius: 50;
 `;

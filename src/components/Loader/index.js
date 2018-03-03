@@ -16,7 +16,9 @@ class Loader extends React.Component {
       },
     )).start();
   }
+
   spinValue = new Animated.Value(0);
+
   render() {
     const spin = this.spinValue.interpolate({
       inputRange: [0, 1],

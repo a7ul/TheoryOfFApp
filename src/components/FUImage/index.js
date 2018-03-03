@@ -14,7 +14,11 @@ class FUImage extends React.PureComponent {
     const { imageUrl } = this.props;
     return (
       <styles.FUImageContainer>
-        <Banner source={{ uri: imageUrl }} onLoadStart={this.onLoadStart} onLoadEnd={this.onLoadEnd} />
+        <Banner
+          source={{ uri: imageUrl }}
+          onLoadStart={this.onLoadStart}
+          onLoadEnd={this.onLoadEnd}
+        />
       </styles.FUImageContainer>
     );
   }

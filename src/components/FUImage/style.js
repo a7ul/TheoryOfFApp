@@ -6,4 +6,3 @@ export const FUImageContainer = styled.View`
     justify-content: center;
 `;
 
-export const test = null;
