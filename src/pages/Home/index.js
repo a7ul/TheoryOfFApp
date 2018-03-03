@@ -5,26 +5,23 @@
  */
 
 import React, { Component } from 'react';
-import { View, Image } from 'react-native';
-import styles from './style';
 import Loader from '../../components/Loader';
-import ShareBtn from '../../components/Share';
+import FUImage from '../../components/FUImage';
+import RightTitleBtn from '../../components/RightTitleBtn';
 
 export default class Home extends Component {
   static navigationOptions = {
     title: '🖕',
     headerTransparent: true,
-    headerRight: <ShareBtn />,
+    headerRight: <RightTitleBtn />,
   };
   state = {
-    isLoading: true,
+    isLoading: false,
   }
   render() {
     return (
       <Loader isLoading={this.state.isLoading} >
-        <View style={styles.container}>
-          <Image style={styles.image} source={{ uri: 'http://i0.kym-cdn.com/photos/images/newsfeed/000/237/609/3e9.gif' }} />
-        </View>
+        <FUImage />
       </Loader>
     );
   }

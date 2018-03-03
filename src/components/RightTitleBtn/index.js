@@ -18,14 +18,14 @@ const onShare = () => {
   });
 };
 
-const ShareBtn = (props) => (
-  <styles.ShareContainer onPress={onShare}>
-    <Text>Hi</Text>
-  </styles.ShareContainer>
+const RightTitleBtn = (props) => (
+  <styles.RightContainer onPress={onShare}>
+    <styles.ShareIcon name="share-2" />
+  </styles.RightContainer>
 );
 
-ShareBtn.defaultProps = {
+RightTitleBtn.defaultProps = {
 };
-ShareBtn.propTypes = {
+RightTitleBtn.propTypes = {
 };
-export default ShareBtn;
+export default RightTitleBtn;

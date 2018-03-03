@@ -26,7 +26,7 @@ class Loader extends React.Component {
     return this.props.isLoading
       ? (
         <styles.LoaderContainer >
-          <styles.LoaderText>Trying to load some</styles.LoaderText>
+          <styles.LoaderText>Trying to load fucks for you</styles.LoaderText>
           <styles.IconText style={{ transform: [{ rotate: spin }] }} >🖕</styles.IconText>
         </styles.LoaderContainer>
       )
