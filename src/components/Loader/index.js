@@ -27,7 +27,7 @@ class Loader extends React.Component {
     const { isLoading } = this.props;
     return [
       <styles.LoaderContainer key="loader" visible={isLoading}>
-        <styles.LoaderText>Trying to load fucks for you</styles.LoaderText>
+        <styles.LoaderText>Trying to give a fuck !</styles.LoaderText>
         <styles.IconText style={{ transform: [{ rotate: spin }] }} >🖕</styles.IconText>
       </styles.LoaderContainer>,
       <styles.Container key="container" visible={!isLoading}>{this.props.children}</styles.Container>,
