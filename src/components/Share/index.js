@@ -18,14 +18,14 @@ const onShare = () => {
   });
 };
 
-const Share = (props) => (
-  <styles.ShareContainer>
+const ShareBtn = (props) => (
+  <styles.ShareContainer onPress={onShare}>
     <Text>Hi</Text>
   </styles.ShareContainer>
 );
 
-Share.defaultProps = {
+ShareBtn.defaultProps = {
 };
-Share.propTypes = {
+ShareBtn.propTypes = {
 };
-export default Share;
+export default ShareBtn;

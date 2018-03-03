@@ -8,11 +8,13 @@ import React, { Component } from 'react';
 import { View, Image } from 'react-native';
 import styles from './style';
 import Loader from '../../components/Loader';
+import ShareBtn from '../../components/Share';
 
 export default class Home extends Component {
   static navigationOptions = {
     title: '🖕',
     headerTransparent: true,
+    headerRight: <ShareBtn />,
   };
   state = {
     isLoading: true,

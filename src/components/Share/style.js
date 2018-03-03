@@ -1,8 +1,7 @@
 import styled from 'styled-components/native';
 
-export const ShareContainer = styled.View`
-   
-   
+export const ShareContainer = styled.TouchableOpacity`
+   background-color: white;
 `;
 
 export const test = styled.View`
