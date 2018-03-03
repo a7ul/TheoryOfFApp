@@ -23,7 +23,7 @@ const writeFucks = (fucks) => {
       if (err) {
         return reject(err);
       }
-      resolve(data);
+      return resolve(data);
     });
   });
   return writePromise;

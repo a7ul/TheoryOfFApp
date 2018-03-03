@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Loader from '../../components/Loader';
 import FUImage from '../../components/FUImage';
 import ActionContainer from '../../components/ActionContainer';
-import { getRandomImage } from '../../util';
+import { getRandomImageUrl } from '../../util';
 
 export default class Home extends Component {
   static navigationOptions = {
@@ -30,7 +30,7 @@ export default class Home extends Component {
   }
 
   setRandomImage = () => {
-    getRandomImage().then((randomUrl) => {
+    getRandomImageUrl().then((randomUrl) => {
       this.setImage(randomUrl);
     });
   }
