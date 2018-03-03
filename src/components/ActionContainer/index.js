@@ -1,17 +1,13 @@
 import React from 'react';
-import { Share, TouchableOpacity } from 'react-native';
+import { TouchableOpacity, Share } from 'react-native';
 import PropTypes from 'prop-types';
 import * as styles from './style';
 
 class ActionContainer extends React.PureComponent {
   onShare = () => {
     Share.share({
-      url: `${this.props.imageUrl}`,
-      title: `${this.props.imageUrl}`,
-    }, {
-      // Android only:
-      dialogTitle: 'No fucks to Share',
-    });
+      message: this.props.imageUrl,
+    }).catch(err => console.log(err));
   };
   render() {
     const { isLoading, reload } = this.props;

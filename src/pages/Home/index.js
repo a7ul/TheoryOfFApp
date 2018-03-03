@@ -16,11 +16,7 @@ export default class Home extends Component {
   componentDidMount() {
     this.setRandomImage();
   }
-  setRandomImage = () => {
-    getRandomImage().then((randomUrl) => {
-      this.setImage(randomUrl);
-    });
-  }
+
   setLoading = (isLoading) => {
     this.setState((prevState) => ({ ...prevState, isLoading }));
   }
@@ -33,13 +29,22 @@ export default class Home extends Component {
     setTimeout(() => this.setState((prevState) => ({ ...prevState, fakeIsLoading: false })), 2000);
   }
 
+  setRandomImage = () => {
+    getRandomImage().then((randomUrl) => {
+      this.setImage(randomUrl);
+    });
+  }
+
   render() {
     const { imageUrl, isLoading, fakeIsLoading } = this.state;
     const augmentedIsLoading = isLoading || fakeIsLoading;
     return (
       [
         <Loader key="loader_screen" isLoading={augmentedIsLoading} >
-          <FUImage setLoading={this.setLoading} imageUrl={imageUrl} />
+          <FUImage
+            setLoading={this.setLoading}
+            imageUrl={imageUrl}
+          />
         </Loader>,
         <ActionContainer key="action_panel" imageUrl={imageUrl} reload={this.setRandomImage} isLoading={augmentedIsLoading} />,
       ]
