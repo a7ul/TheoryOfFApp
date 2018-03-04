@@ -11,13 +11,14 @@ class FUImage extends React.PureComponent {
     this.props.setLoading(false);
   }
   render() {
-    const { imageUrl } = this.props;
+    const { imageUrl, onError } = this.props;
     return (
       <styles.FUImageContainer>
         <Banner
           source={{ uri: imageUrl }}
           onLoadStart={this.onLoadStart}
           onLoadEnd={this.onLoadEnd}
+          onError={onError}
         />
       </styles.FUImageContainer>
     );
@@ -26,9 +27,11 @@ class FUImage extends React.PureComponent {
 FUImage.defaultProps = {
   imageUrl: null,
   setLoading: () => {},
+  onError: () => {},
 };
 FUImage.propTypes = {
   imageUrl: PropTypes.string,
   setLoading: PropTypes.func,
+  onError: PropTypes.func,
 };
 export default FUImage;
