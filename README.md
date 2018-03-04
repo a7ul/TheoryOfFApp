@@ -9,10 +9,10 @@ This app can be downloaded free from  https://play.google.com/store/apps/details
 
 <br>
 <div style="text-align:center">
-  <img src="http://master-atul.github.io/NoFucksApp/assets/intro.jpg" style="display: inline;">
-  <img src="http://master-atul.github.io/NoFucksApp/assets/3.jpg" style="display: inline;">
-  <img src="http://master-atul.github.io/NoFucksApp/assets/1.jpg" style="display: inline;">
-  <img src="http://master-atul.github.io/NoFucksApp/assets/2.jpg" style="display: inline;">
+  <img src="http://master-atul.github.io/NoFucksApp/assets/github/intro.jpg" style="display: inline;">
+  <img src="http://master-atul.github.io/NoFucksApp/assets/github/3.jpg" style="display: inline;">
+  <img src="http://master-atul.github.io/NoFucksApp/assets/github/1.jpg" style="display: inline;">
+  <img src="http://master-atul.github.io/NoFucksApp/assets/github/2.jpg" style="display: inline;">
 </div>
 <br>
 
