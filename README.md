@@ -4,6 +4,18 @@ This app can be downloaded free from  https://play.google.com/store/apps/details
 
 <a href='https://play.google.com/store/apps/details?id=com.nofucksapp&hl=en&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width=200/></a>
 
+
+### Screenshots
+
+<br>
+<div style="text-align:center">
+  <img src="http://master-atul.github.io/NoFucksApp/assets/intro.jpg" style="display: inline;">
+  <img src="http://master-atul.github.io/NoFucksApp/assets/3.jpg" style="display: inline;">
+  <img src="http://master-atul.github.io/NoFucksApp/assets/1.jpg" style="display: inline;">
+  <img src="http://master-atul.github.io/NoFucksApp/assets/2.jpg" style="display: inline;">
+</div>
+<br>
+
 ### Build instructions:
 ```
 BUILD_NAME=1.1.1 BUILD_NUMBER=11 ANDROID_APP_ID='com.nofucksapp' ANDROID_KEYSTORE_FILE='nofucks.keystore' ANDROID_KEY_ALIAS='nofucks' ANDROID_KEYSTORE_PASSWORD=<PASSOWORD> ANDROID_KEY_PASSWORD=<PASSWORD> sh ./scripts/android/build_android.sh
