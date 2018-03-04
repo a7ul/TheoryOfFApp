@@ -6,15 +6,10 @@ This app can be downloaded free from  https://play.google.com/store/apps/details
 
 
 ### Screenshots
-
-<br>
-<div style="text-align:center">
-  <img src="http://master-atul.github.io/NoFucksApp/assets/github/intro.jpg" style="display: inline; height: 500px">
-  <img src="http://master-atul.github.io/NoFucksApp/assets/github/3.jpg" style="display: inline; height: 500px">
-  <img src="http://master-atul.github.io/NoFucksApp/assets/github/1.jpg" style="display: inline; height: 500px">
-  <img src="http://master-atul.github.io/NoFucksApp/assets/github/2.jpg" style="display: inline; height: 500px">
-</div>
-<br>
+<img src="http://master-atul.github.io/NoFucksApp/assets/github/intro.jpg" width="300" height="500" style="display:inline;"/>
+<img src="http://master-atul.github.io/NoFucksApp/assets/github/3.jpg" width="300" height="500" style="display:inline;" />
+<img src="http://master-atul.github.io/NoFucksApp/assets/github/1.jpg" width="300" height="500" style="display:inline;" />
+<img src="http://master-atul.github.io/NoFucksApp/assets/github/2.jpg" width="300" height="500" style="display:inline;" />
 
 ### Build instructions:
 ```
