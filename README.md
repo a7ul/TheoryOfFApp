@@ -1,4 +1,4 @@
-# No Fucks App
+# Theory of Fucks
 
 This app can be downloaded free from  https://play.google.com/store/apps/details?id=com.nofucksapp&hl=en
 
