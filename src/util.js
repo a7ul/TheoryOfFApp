@@ -1,5 +1,5 @@
-const CONFIG_URL = 'http://master-atul.github.io/NoFucksApp/assets/fucks.json';
-const FUCKS_BASE_URL = 'http://master-atul.github.io/NoFucksApp/assets/fucks/';
+const CONFIG_URL = 'http://master-atul.github.io/TheoryOfFApp/assets/fucks.json';
+const FUCKS_BASE_URL = 'http://master-atul.github.io/TheoryOfFApp/assets/fucks/';
 
 let config = null;
 

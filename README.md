@@ -6,10 +6,10 @@ This app can be downloaded free from  https://play.google.com/store/apps/details
 
 
 ### Screenshots
-<img src="http://master-atul.github.io/NoFucksApp/assets/github/intro.jpg" width="300" height="500" style="display:inline;"/>
-<img src="http://master-atul.github.io/NoFucksApp/assets/github/3.jpg" width="300" height="500" style="display:inline;" />
-<img src="http://master-atul.github.io/NoFucksApp/assets/github/1.jpg" width="300" height="500" style="display:inline;" />
-<img src="http://master-atul.github.io/NoFucksApp/assets/github/2.jpg" width="300" height="500" style="display:inline;" />
+<img src="http://master-atul.github.io/TheoryOfFApp/assets/github/intro.jpg" width="300" height="500" style="display:inline;"/>
+<img src="http://master-atul.github.io/TheoryOfFApp/assets/github/3.jpg" width="300" height="500" style="display:inline;" />
+<img src="http://master-atul.github.io/TheoryOfFApp/assets/github/1.jpg" width="300" height="500" style="display:inline;" />
+<img src="http://master-atul.github.io/TheoryOfFApp/assets/github/2.jpg" width="300" height="500" style="display:inline;" />
 
 ### Build instructions:
 ```
